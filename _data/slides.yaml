@@ -1,25 +1,25 @@
-- caption_title: Postman Tests Your APIs
-  caption_text: [Need Text]
+- caption_title: Postman Lets You Test Your APIs
+  caption_text: Using Postman, you can craft API requests, and then define tests that run for each request, ensuring that specific requirements are met.
   margin_margin_top: 500px
-  caption_width: 40
+  caption_width: 50
   margin_right: 0
-  background_image: images/postman-client.png
+  background_image: images/postman-make-requests.png
   tooltip_show: 1
   tooltip_text: Requests
   tooltip_width: 190px
-  tooltip_margin_top: 65px
-  tooltip_margin_left: 490px
+  tooltip_margin_top: 50px
+  tooltip_margin_left: 560px
   tooltip_direction: left
-- caption_title: Name Your Requests
+- caption_title: Name Your API Requests
   caption_text: [Need Text]
   margin_margin_top: 500px
-  margin_right: 1
-  background_image: images/postman-client.png
+  margin_right: 0
+  background_image: images/postman-make-requests.png
   tooltip_show: 1
   tooltip_text: Edit Name
   tooltip_width: 260px
-  tooltip_margin_top: 95px
-  tooltip_margin_left: 400px
+  tooltip_margin_top: 80px
+  tooltip_margin_left: 450px
   tooltip_direction: left
   caption_width: 30
 - caption_title: Set The HTTP Verb
@@ -27,78 +27,70 @@
   margin_margin_top: 500px
   caption_width: 30
   margin_right: 0
-  background_image: images/postman-client.png
+  background_image: images/postman-make-requests.png
   tooltip_show: 1
   tooltip_text: Verb
   tooltip_width: 145px
   tooltip_margin_top: 120px
-  tooltip_margin_left: 400px
+  tooltip_margin_left: 480px
   tooltip_direction: left
 - caption_title: Define Path To API
   caption_text: [Need Text]
   margin_margin_top: 500px
   caption_width: 30
   margin_right: 0
-  background_image: images/postman-client.png
+  background_image: images/postman-make-requests.png
   tooltip_show: 1
   tooltip_text: Path
   tooltip_width: 145px
   tooltip_margin_top: 120px
-  tooltip_margin_left: 495px
+  tooltip_margin_left: 700px
   tooltip_direction: left
-- caption_title: Pre-Request
+- caption_title: Pre-Request Scripts
   caption_text: [Need Text]
+  margin_margin_top: 500px
   caption_width: 40
   margin_right: 0
-  background_image: images/postman-client.png
+  background_image: images/postman-pre-request-test.png
   tooltip_show: 1
-  tooltip_text: Parameters
-  tooltip_width: 205px
-  tooltip_margin_top: 134px
-  tooltip_margin_left: 380px
+  tooltip_text: Scripts
+  tooltip_width: 150px
+  tooltip_margin_top: 148px
+  tooltip_margin_left: 735px
   tooltip_direction: left
 - caption_title: Test Scripts
   caption_text: [Need Text]
   margin_margin_top: 500px
   caption_width: 40
   margin_right: 0
-  background_image: images/postman-auth.png
+  background_image: images/postman-test-script.png
   tooltip_show: 1
-  tooltip_text: Authentication
-  tooltip_width: 255px
-  tooltip_margin_top: 155px
-  tooltip_margin_left: 445px
+  tooltip_text: Scripts
+  tooltip_width: 150px
+  tooltip_margin_top: 148px
+  tooltip_margin_left: 800px
   tooltip_direction: left
-- caption_title: Snippets
+- caption_title: See Response
   caption_text: [Need Text]
+  margin_margin_top: 500px
   caption_width: 40
   margin_right: 0
-  background_image: images/postman-client.png
+  background_image: images/postman-response.png
   tooltip_show: 1
-  tooltip_text: Headers
+  tooltip_text: Response
   tooltip_width: 175px
-  tooltip_margin_top: 145px
-  tooltip_margin_left: 510px
+  tooltip_margin_top: 230px
+  tooltip_margin_left: 680px
   tooltip_direction: left
-- caption_title: Response
+- caption_title: See Test Results
   caption_text: [Need Text]
+  margin_margin_top: 500px
   caption_width: 40
   margin_right: 0
-  background_image: images/postman-client.png
+  background_image: images/postman-test-results.png
   tooltip_show: 1
-  tooltip_text: Headers
+  tooltip_text: Results
   tooltip_width: 175px
-  tooltip_margin_top: 145px
-  tooltip_margin_left: 510px
-  tooltip_direction: left
-- caption_title: Console
-  caption_text: [Need Text]
-  caption_width: 40
-  margin_right: 0
-  background_image: images/postman-client.png
-  tooltip_show: 1
-  tooltip_text: Headers
-  tooltip_width: 175px
-  tooltip_margin_top: 145px
-  tooltip_margin_left: 510px
+  tooltip_margin_top: 130px
+  tooltip_margin_left: 640px
   tooltip_direction: left
