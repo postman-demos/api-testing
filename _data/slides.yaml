@@ -1,0 +1,104 @@
+- caption_title: Postman Tests Your APIs
+  caption_text: [Need Text]
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Requests
+  tooltip_width: 190px
+  tooltip_margin_top: 65px
+  tooltip_margin_left: 490px
+  tooltip_direction: left
+- caption_title: Name Your Requests
+  caption_text: [Need Text]
+  margin_margin_top: 500px
+  margin_right: 1
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Edit Name
+  tooltip_width: 260px
+  tooltip_margin_top: 95px
+  tooltip_margin_left: 400px
+  tooltip_direction: left
+  caption_width: 30
+- caption_title: Set The HTTP Verb
+  caption_text: [Need Text]
+  margin_margin_top: 500px
+  caption_width: 30
+  margin_right: 0
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Verb
+  tooltip_width: 145px
+  tooltip_margin_top: 120px
+  tooltip_margin_left: 400px
+  tooltip_direction: left
+- caption_title: Define Path To API
+  caption_text: [Need Text]
+  margin_margin_top: 500px
+  caption_width: 30
+  margin_right: 0
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Path
+  tooltip_width: 145px
+  tooltip_margin_top: 120px
+  tooltip_margin_left: 495px
+  tooltip_direction: left
+- caption_title: Pre-Request
+  caption_text: [Need Text]
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Parameters
+  tooltip_width: 205px
+  tooltip_margin_top: 134px
+  tooltip_margin_left: 380px
+  tooltip_direction: left
+- caption_title: Test Scripts
+  caption_text: [Need Text]
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-auth.png
+  tooltip_show: 1
+  tooltip_text: Authentication
+  tooltip_width: 255px
+  tooltip_margin_top: 155px
+  tooltip_margin_left: 445px
+  tooltip_direction: left
+- caption_title: Snippets
+  caption_text: [Need Text]
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Headers
+  tooltip_width: 175px
+  tooltip_margin_top: 145px
+  tooltip_margin_left: 510px
+  tooltip_direction: left
+- caption_title: Response
+  caption_text: [Need Text]
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Headers
+  tooltip_width: 175px
+  tooltip_margin_top: 145px
+  tooltip_margin_left: 510px
+  tooltip_direction: left
+- caption_title: Console
+  caption_text: [Need Text]
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Headers
+  tooltip_width: 175px
+  tooltip_margin_top: 145px
+  tooltip_margin_left: 510px
+  tooltip_direction: left

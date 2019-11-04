@@ -1,0 +1,53 @@
+---
+layout: default
+title: Demo
+overview: true
+---
+
+<section>
+  <br>
+  <h3>{{ site.opening_title }}</h3>
+  <img src="{{ site.opening_image }}" width="550" align="center">
+  <p>
+    <small>@getpostman</small>
+  </p>
+</section>
+
+{% assign slides = site.data.slides %}
+{% for slide in slides %}
+<section data-background="{{ slide.background_image }}">
+
+  {% if slide.tooltip_show == 1 %}
+    {% if slide.tooltip_direction == 'left' %}
+      <table style="position: absolute; width: {{ slide.tooltip_width }}; margin-top: {{ slide.tooltip_margin_top }}; margin-left: {{ slide.tooltip_margin_left }};">
+        <tr>
+          <td style="width: 50px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><img src="images/tip-left.png" style="width: 25px;" align="right" /></td>
+          <td style="background-color: #FFC107; color: #000; font-size: 28px; font-weight: bold; text-align:left; vertical-align: text-top; line-height: 2;">{{ slide.tooltip_text }}</td>
+        </tr>
+      </table>
+    {% else %}
+      <table style="position: absolute; width: {{ slide.tooltip_width }}; margin-top: {{ slide.tooltip_margin_top }}; margin-left: {{ slide.tooltip_margin_left }};">
+        <tr>
+          <td style="background-color: #FFC107; color: #000; font-size: 28px; font-weight: bold; text-align:right; vertical-align: text-top; line-height: 2;">{{ slide.tooltip_text }}</td>
+          <td style="width: 50px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><img src="images/tip-right.png" style="width: 25px;" /></td>
+        </tr>
+      </table>
+    {% endif %}
+  {% endif %}
+
+  <div style="position: absolute; width: {{ slide.caption_width }}%; margin-top: {{ slide.margin_margin_top }}; right: {{ slide.margin_right }}; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>{{ slide.caption_title }}</h2>
+    <p>{{ slide.caption_text }}</p>
+  </div>
+
+</section>
+{% endfor %}
+
+<section>
+  <br>
+  <h3>{{ site.closing_title }}</h3>
+  <img src="{{ site.closing_image }}" width="550" align="center">
+  <p>
+    <small>@getpostman</small>
+  </p>
+</section>

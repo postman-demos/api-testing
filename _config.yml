@@ -1,0 +1,11 @@
+opening_title: Demo - API Testing
+opening_image: images/consumers.png
+
+closing_title: Download Postman Today!!
+closing_image: images/integrations_postmanaut_4.png
+
+markdown: kramdown
+highlighter: rouge
+relative_permalinks: false
+permalink: /news/:year/:month/:day/:title/
+excerpt_separator: ""
