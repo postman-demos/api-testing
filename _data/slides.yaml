@@ -25,7 +25,7 @@
 - caption_title: Set The HTTP Verb
   caption_text: Setting the HTTP verb for the request, making sure the action for the API request is well defined as a GET, POST, PUT, or DELETE.
   margin_margin_top: 500px
-  caption_width: 30
+  caption_width: 50
   margin_right: 0
   background_image: images/postman-make-requests.png
   tooltip_show: 1
@@ -61,7 +61,7 @@
 - caption_title: Test Scripts
   caption_text: Define scripts that can be run upon completion of each API request, evaluating and working with the response for each individual request.
   margin_margin_top: 500px
-  caption_width: 40
+  caption_width: 50
   margin_right: 0
   background_image: images/postman-test-script.png
   tooltip_show: 1
