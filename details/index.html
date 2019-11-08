@@ -1,0 +1,26 @@
+---
+layout: none
+title: Details
+overview: true
+---
+
+
+{% assign slides = site.data.slides %}
+
+<p><strong>Outline</strong></p>
+{% for slide in slides %}
+  {% if slide.tooltip_show == 1 %}
+    {% if slide.tooltip_direction == 'left' %}
+    - {{ slide.caption_title }}<br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<p><strong>Images</strong></p>
+{% for slide in slides %}
+  {% if slide.tooltip_show == 1 %}
+    {% if slide.tooltip_direction == 'left' %}
+    - [{{ slide.background_image }}](https://github.com/postman-demos/build-and-design-apis/tree/master/{{ slide.background_image }})<br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
