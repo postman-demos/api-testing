@@ -11,7 +11,7 @@
   tooltip_margin_left: 560px
   tooltip_direction: left
 - caption_title: Name Your API Requests
-  caption_text: You can give each of your requests plain language names that help make each request more accessible, usable, meaningful to everyone.
+  caption_text: You can give each of your requests plain language names that help make each request more meaningful to everyone.
   margin_margin_top: 500px
   margin_right: 0
   background_image: images/postman-make-requests.png
@@ -21,7 +21,7 @@
   tooltip_margin_top: 80px
   tooltip_margin_left: 450px
   tooltip_direction: left
-  caption_width: 30
+  caption_width: 50
 - caption_title: Set The HTTP Verb
   caption_text: Setting the HTTP verb for the request, making sure the action for the API request is well defined as a GET, POST, PUT, or DELETE.
   margin_margin_top: 500px
@@ -37,7 +37,7 @@
 - caption_title: Define Path To API
   caption_text: Carefully craft a meaningful path for making the API request, helping make the resource more accessible in an intuitive way.
   margin_margin_top: 500px
-  caption_width: 30
+  caption_width: 50
   margin_right: 0
   background_image: images/postman-make-requests.png
   tooltip_show: 1
