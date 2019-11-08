@@ -11,7 +11,7 @@
   tooltip_margin_left: 560px
   tooltip_direction: left
 - caption_title: Name Your API Requests
-  caption_text: [Need Text]
+  caption_text: You can give each of your requests plain language names that help make each request more accessible, usable, meaningful to everyone.
   margin_margin_top: 500px
   margin_right: 0
   background_image: images/postman-make-requests.png
@@ -23,7 +23,7 @@
   tooltip_direction: left
   caption_width: 30
 - caption_title: Set The HTTP Verb
-  caption_text: [Need Text]
+  caption_text: Setting the HTTP verb for the request, making sure the action for the API request is well defined as a GET, POST, PUT, or DELETE.
   margin_margin_top: 500px
   caption_width: 30
   margin_right: 0
@@ -35,7 +35,7 @@
   tooltip_margin_left: 480px
   tooltip_direction: left
 - caption_title: Define Path To API
-  caption_text: [Need Text]
+  caption_text: Carefully craft a meaningful path for making the API request, helping make the resource more accessible in an intuitive way.
   margin_margin_top: 500px
   caption_width: 30
   margin_right: 0
@@ -47,7 +47,7 @@
   tooltip_margin_left: 700px
   tooltip_direction: left
 - caption_title: Pre-Request Scripts
-  caption_text: [Need Text]
+  caption_text: Define scripts that can be run before the request is made, defining and transforming environment and global variables.
   margin_margin_top: 500px
   caption_width: 40
   margin_right: 0
@@ -59,7 +59,7 @@
   tooltip_margin_left: 735px
   tooltip_direction: left
 - caption_title: Test Scripts
-  caption_text: [Need Text]
+  caption_text: Define scripts that can be run upon completion of each API request, evaluating and working with the response for each individual request.
   margin_margin_top: 500px
   caption_width: 40
   margin_right: 0
@@ -71,7 +71,7 @@
   tooltip_margin_left: 800px
   tooltip_direction: left
 - caption_title: See Response
-  caption_text: [Need Text]
+  caption_text: You can view the details of each API response, seeing the body, cookies, header, and other details of each individual API request.
   margin_margin_top: 500px
   caption_width: 40
   margin_right: 0
@@ -83,7 +83,7 @@
   tooltip_margin_left: 680px
   tooltip_direction: left
 - caption_title: See Test Results
-  caption_text: [Need Text]
+  caption_text: Being able to review the test results for each API response, being able to asess which tests passed or failed for each API response.
   margin_margin_top: 500px
   caption_width: 40
   margin_right: 0
