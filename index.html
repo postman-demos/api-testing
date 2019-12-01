@@ -14,8 +14,11 @@ overview: true
 </section>
 
 {% assign slides = site.data.slides %}
+
+{% assign i = 1 %}
+
 {% for slide in slides %}
-<section data-background="{{ slide.background_image }}">
+<section data-background="{{ slide.background_image }}" data-state="slide-{{ i }}">
 
   {% if slide.tooltip_show == 1 %}
     {% if slide.tooltip_direction == 'left' %}
@@ -33,6 +36,9 @@ overview: true
         </tr>
       </table>
     {% endif %}
+
+    {% assign i = i | plus:1 %}
+
   {% endif %}
 
   <div style="position: absolute; width: {{ slide.caption_width }}%; margin-top: {{ slide.margin_margin_top }}; right: {{ slide.margin_right }}; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
@@ -43,7 +49,7 @@ overview: true
 </section>
 {% endfor %}
 
-<section>
+<section data-state="last"">
   <br>
   <h3>{{ site.closing_title }}</h3>
   <img src="{{ site.closing_image }}" width="550" align="center">
