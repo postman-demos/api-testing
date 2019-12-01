@@ -17,7 +17,7 @@ Reveal.initialize({
   margin: 0,
   transition: 'slide', // none/fade/slide/convex/concave/zoom
   /*loop: true,*/
-  /*autoSlide: 6000,*/
+  autoSlide: 6000,
   autoSlideStoppable: true,
 
   // More info https://github.com/hakimel/reveal.js#dependencies
@@ -31,9 +31,13 @@ Reveal.initialize({
   ]
 });
 
-Reveal.add('<h3>Slide title</h3>');
+//Reveal.add('<h3>Slide title</h3>');
 
-Reveal.add('<h3>Slide title</h3>');
+//Reveal.add('<h3>Slide title</h3>');
+
+Reveal.addEventListener( 'slide-15', function() {
+    window.location = 'https://postman-demos.github.io/api-testing/#/';
+} );
 
 
 </script>
